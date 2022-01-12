@@ -233,3 +233,21 @@ main .minute-mark {
 .popular {
   color: var(--main-thematic-color);
 }
+/* Free membership section */
+#free-membership {
+  height: 50vh;
+  background-color: var(--dark-blue);
+  color: var(--main-text-color);
+}
+#free-membership li {
+  width: 25rem;
+}
+/* footer */
+footer {
+  background-color: var(--dark-blue);
+  color: var(--main-text-color);
+  font-size: 2rem;
+}
+footer .copyright{
+  font-size: 1rem;
+}
