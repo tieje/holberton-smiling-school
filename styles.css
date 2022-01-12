@@ -115,6 +115,7 @@ body ul {
   --main-thematic-color: #c271ff;
   --main-text-color: white;
   --nav-lr-margin: 10vw;
+  --dark-blue: #071629;
 }
 /* Homepage */
 
@@ -147,6 +148,9 @@ body ul {
 .btn-primary:visited {
   background-color: var(--main-thematic-color) !important;
   color: var(--main-text-color) !important;
+}
+.btn-primary:hover, .btn-primary:active, a:active, a:hover {
+  opacity: var(--button-hover-active-opacity);
 }
 .profile-pics {
   width: 70vw;
@@ -186,4 +190,46 @@ body ul {
     font-size: 2vw;
     padding: 1vw;
   }
+}
+
+/* Main */
+/* Reviews Carousel */
+main #carouselExampleControls {
+  background-color: var(--main-thematic-color);
+  color: var(--main-text-color);
+  height: 40vh;
+}
+main .carousel-container {
+  display: flex;
+  flex-grow: 1;
+  padding: 5vh 10vw;  
+}
+main .carousel-container p {
+  font-size: 1vw;
+}
+/* Videos Carousel */
+main #carouselVideos {
+  height: 60vh;
+}
+main .video-card {
+  width: 18rem;
+}
+main .mini-profile {
+  width: 3rem;
+}
+main .mini-profile {
+  width: 3rem;
+}
+main .mini-profile + h5 {
+  color: var(--main-thematic-color);
+}
+main .minute-mark {
+  color: var(--main-thematic-color);
+}
+.dir-arrow {
+  font-size: 10rem;
+  color: var(--dark-blue);
+}
+.popular {
+  color: var(--main-thematic-color);
 }
