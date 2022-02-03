@@ -1,14 +1,18 @@
-Holberton Smiling School will help your little psychopath find the logical support they deserve with our patented technique of telling them to live by the rules or face consequences.
+# holberton-smiling-school
 
-What people are saying:
+Specializations - Web Stack programming ― Front-end
 
-- "Holberton Smiling School helped my son or daughter finish school!"
-- "Fake it until you make it!"
-- "My experience was absolutely logical!"
+---
 
-Interactions note:
+## Description
 
-- Web pages must switch to the tablet version when the screen width is 768px
-- Web pages must switch to the mobile version when the screen width is 576px
-- button hover/active: opacity: 0.9
-Some or all files in this repo were generated using [hb-file-creator](https://github.com/tieje/hb-file-creator)
+In this project, I will implement 3 web pages with Bootstrap. I will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that I learned previously.
+
+Here the final result:
+
+![cover](images/cover.jpg)
+
+## Requirements
+
+* You have to use Bootstrap
+* Your `styles.css` must be as small as you can - you must use as much as you can Bootstrap classes

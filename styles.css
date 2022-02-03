@@ -116,6 +116,7 @@ body ul {
   --main-text-color: white;
   --nav-lr-margin: 10vw;
   --dark-blue: #071629;
+  --checkmark-green: #82d24f;
 }
 /* Homepage */
 
@@ -149,7 +150,10 @@ body ul {
   background-color: var(--main-thematic-color) !important;
   color: var(--main-text-color) !important;
 }
-.btn-primary:hover, .btn-primary:active, a:active, a:hover {
+.btn-primary:hover,
+.btn-primary:active,
+a:active,
+a:hover {
   opacity: var(--button-hover-active-opacity);
 }
 .profile-pics {
@@ -202,7 +206,7 @@ main #carouselExampleControls {
 main .carousel-container {
   display: flex;
   flex-grow: 1;
-  padding: 5vh 10vw;  
+  padding: 5vh 10vw;
 }
 main .carousel-container p {
   font-size: 1vw;
@@ -248,6 +252,123 @@ footer {
   color: var(--main-text-color);
   font-size: 2rem;
 }
-footer .copyright{
+footer .copyright {
   font-size: 1rem;
+}
+/* pricing page */
+
+/* pricing header*/
+.pricing-header {
+  background-image: url("images/pic_2.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: var(--main-text-color);
+}
+#navbarSupportedContent {
+  color: var(--main-text-color);
+}
+.pricing-header div ul li a {
+  color: var(--main-text-color);
+}
+.pricing-header div a {
+  color: var(--main-thematic-color);
+}
+.extend-dark-blue-bg {
+  background-color: var(--dark-blue);
+  box-shadow: 0 -30px 30px 30px var(--dark-blue);
+  height: 50vh;
+}
+.pricing-button {
+  width: 15rem;
+}
+/* pricing grid */
+.pricing-header tbody th {
+  text-align: left;
+  padding: 2rem;
+}
+.pricing-header tbody td {
+  color: var(--checkmark-green);
+  font-size: 2rem;
+}
+
+/* pricing faqs section */
+.pricing-faqs {
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.pricing-faqs article {
+  width: 40rem;
+}
+.pricing-faqs .faq-articles-container {
+  width: 80vw;
+  margin: 5rem auto;
+}
+
+/* courses page */
+/* courses header */
+.courses-header {
+  background-image: url("images/pic_3.jpg");
+  background-size: cover;
+  height: 40vh;
+  color: var(--main-text-color);
+}
+.courses-slogan {
+  font-family: Impact;
+  font-weight: lighter;
+}
+.courses-header nav a {
+  color: white;
+}
+/* search sort section */
+.search-sort {
+  background-color: var(--main-thematic-color);
+  height: 20vh;
+}
+.search-sort div {
+  width: 15rem;
+}
+.search-sort div h6 {
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-size: 0.8rem;
+}
+.search-sort div .search-box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: rgba(255, 255, 255, 0.8) solid 1px;
+}
+.search-sort div div label {
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+}
+.search-sort div div input {
+  color: white;
+  border: none;
+}
+.search-sort div div input:focus {
+  outline: none;
+}
+.search-sort div div input::placeholder {
+  color: white;
+  opacity: 60%;
+  border: none;
+}
+.extend-dark-blue-bg-no-shadow {
+  background-color: var(--dark-blue);
+  height: 50vh;
+}
+
+/* dropdown */
+.dropdown-menu {
+  background-color: white;
+  color: black;
+}
+.search-box button {
+  color: white;
+}
+.search-box button:hover,
+.search-box button:hover {
+  color: white;
 }
